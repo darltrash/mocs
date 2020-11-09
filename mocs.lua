@@ -40,6 +40,7 @@ return function (str)
     local _instring = false
     local instring  = false
     local incomment = false
+    local mlcomment = false
     local capturing = ""
     local luacode   = ""
 
@@ -47,9 +48,19 @@ return function (str)
         if char == "$" and not instring then
             incomment = true
         end
+        if char == "<" and incomment then
+            mlcomment = true
+        end
 
-        if char == "\n" and incomment then
-            incomment = false
+        if mlcomment then
+            if char == ">" and incomment then
+                incomment = false
+                mlcomment = false
+            end
+        else
+            if char == "\n" and incomment then
+                incomment = false
+            end
         end
 
         if not incomment then
