@@ -4,6 +4,11 @@ MÖCS is a CSS-Inspired (even though it looks more like JSON) data format design
 ```css
 $ hehe, i'm a comment!
 
+${
+    hohoho, im absolutely
+    multilined, babe!
+}
+
 WhatIsLove?: "baby dont hurt me";
 Download:    99.9%;
 
