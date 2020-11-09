@@ -57,7 +57,7 @@ It's "simple" and "fast", but it really sucks at this point of development. For 
 	 - [x] Variable declaration
 	 - [x] Object/Table declaration
 	 - [x] Comments
-	     - [ ] Multilined Comments
+	     - [x] Multilined Comments
 	 - [x] Percents
 	 - [ ] "Index-less" tables
  - [ ] Colors (Hex, RGBA, HSL, etc)
