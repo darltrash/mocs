@@ -48,12 +48,12 @@ return function (str)
         if char == "$" and not instring then
             incomment = true
         end
-        if char == "<" and incomment then
+        if char == "{" and incomment then
             mlcomment = true
         end
 
         if mlcomment then
-            if char == ">" and incomment then
+            if char == "}" and incomment then
                 incomment = false
                 mlcomment = false
             end
