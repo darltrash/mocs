@@ -71,8 +71,8 @@ It's "simple" and "fast", but it really sucks at this point of development. For 
  - [ ] Standalone "executable"
 
 ## License:
-> ZLIB License. Copyright (c) 2020 Nelson "darltrash" Lopez. MÖCS: A
-> CSS-inspired data format for Lua.
+> ZLIB License. Copyright (c) 2020 Nelson "darltrash" Lopez. 
+> MÖCS: A CSS-inspired data format for Lua.
 > 
 > This software is provided 'as-is', without any express or implied
 > warranty. In no event will the authors be held liable for any damages
